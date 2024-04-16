@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #485563;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #29323c, #485563);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #29323c, #485563);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+
+div {
+    background-color: #161a1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+    height: 90vh;
+    width: 60vh;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 2rem;
+}
+
+section {
+    height: 15vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+section:first-of-type {
+    justify-content: flex-end;
+    background-color: #272e36;
+    width: 60vh;
+    border-radius: 2rem 2rem 0 0;
+    justify-content: center;
+}
+
+a {
+    background-color: #505f6e;
+    height: 10vh;
+    width: 180vh;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.0rem;
+    color: white;
+    text-align: center;
+    line-height: 10vh;
+
+}
+
+.visor {
+    height: 10vh;
+    width:  45vh;
+    background-color: #485563;
+    border: #59697a 0.2rem solid;
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    text-align: end;
+    padding-right: 1.9rem;
+}
+
+.zero {
+    width: 450vh;
+}
+
+.igualdade, .adicao, .subtracao, .multiplicacao, .divisao {
+    background-color: #eb9800;
+}
+
+.delete, .mais-ou-menos, .porcentagem {
+    background-color: #959595;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: #586979;
+}
+
+.delete:hover, .mais-ou-menos:hover, .porcentagem:hover {
+    background-color: #9f9f9f;
+}
+
+.igualdade:hover, .adicao:hover, .subtracao:hover, .multiplicacao:hover, .divisao:hover {
+    background-color: #ffa500;
+}
+
+.visor:first-of-type:hover {
+    cursor: default;
+    background-color: #485563;
+}
