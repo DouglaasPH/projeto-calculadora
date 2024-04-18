@@ -77,7 +77,7 @@ a {
     font-family: "Electrolize", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 3.8rem;
     text-align: end;
     padding-right: 1rem;
 }
@@ -111,4 +111,16 @@ a:hover {
 .visor:first-of-type:hover {
     cursor: default;
     background-color: #485563;
+}
+
+.numero-menor {
+    font-size: 2rem;
+    text-align: end;
+    align-content: center;
+}
+
+.numero-menor-dois {
+    font-size: 1.5rem;
+    text-align: end;
+    align-content: center;
 }
