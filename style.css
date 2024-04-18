@@ -66,6 +66,7 @@ a {
     color: white;
     text-align: center;
     line-height: 10vh;
+    user-select: none;
 
 }
 
@@ -80,6 +81,7 @@ a {
     font-size: 3.8rem;
     text-align: end;
     padding-right: 1rem;
+    user-select: none;
 }
 
 .zero {
@@ -111,6 +113,18 @@ a:hover {
 .visor:first-of-type:hover {
     cursor: default;
     background-color: #485563;
+}
+
+a:active {
+    background-color: #505f6e;
+}
+
+.delete:active, .mais-ou-menos:active, .porcentagem:active {
+    background-color: #959595;
+}
+
+.igualdade:active, .adicao:active, .subtracao:active, .multiplicacao:active, .divisao:active {
+    background-color: #eb9800;
 }
 
 .numero-menor {
